@@ -1,0 +1,30 @@
+frame_id: "map"
+
+stations:
+  dock:        [0.0, 0.0, 0.0]
+  aisle_entry: [0.8, 0.0, 0.0]
+  aisle_1:     [1.6, 0.0, 0.0]
+  aisle_2:     [1.6, 1.2, 1.57]
+  loading:     [2.0, 0.2, 0.0]
+  station_a:   [2.0, 1.6, 1.57]
+  station_b:   [0.8, 1.6, 3.14]
+
+routes:
+  dock_to_loading:        [dock, aisle_entry, aisle_1, loading]
+  loading_to_station_a:   [loading, aisle_2, station_a]
+  station_a_to_station_b: [station_a, aisle_2, station_b]
+  station_b_to_dock:      [station_b, aisle_entry, dock]
+
+mission:
+  - dock_to_loading
+  - loading_to_station_a
+  - station_a_to_station_b
+  - station_b_to_dock
+
+behavior:
+  task_wait_seconds: 3.0
+  max_recoveries_per_goal: 3
+  no_progress_timeout_s: 30.0
+  min_progress_m: 0.25
+  goal_near_threshold_m: 0.4
+  allow_reroute: false
