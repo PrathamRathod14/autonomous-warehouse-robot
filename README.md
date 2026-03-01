@@ -224,5 +224,6 @@ This enables fast adaptation to new warehouse environments.
 
 ## Project Demo
 
-You can view the full video here:  
-[Open Document](https://drive.google.com/file/d/1NjuqkEP2FNwurKIU7ik4aA0wbjLFLlMx/view)
+<a href="https://drive.google.com/file/d/1NjuqkEP2FNwurKIU7ik4aA0wbjLFLlMx/preview" target="_blank">
+  <img src="https://img.shields.io/badge/▶-Watch%20Demo%20Video-red?style=for-the-badge" />
+</a>
