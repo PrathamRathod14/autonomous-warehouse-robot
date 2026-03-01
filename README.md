@@ -222,3 +222,7 @@ This enables fast adaptation to new warehouse environments.
 * Speed-control and keep-out zones can be added for improved safety.
 * Future work includes deployment on a real AMR platform (e.g., Clearpath Ridgeback).
 
+## Project Demo
+
+You can view the full video here:  
+[Open Document](https://drive.google.com/file/d/1NjuqkEP2FNwurKIU7ik4aA0wbjLFLlMx/view)
